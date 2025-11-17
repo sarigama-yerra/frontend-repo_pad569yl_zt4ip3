@@ -7,5 +7,3 @@
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.70.8:3000/
-10:33:29 PM [vite] ✨ new dependencies optimized: lucide-react, framer-motion, roughjs/bundled/rough.esm.js, gsap, react-icons/fa
-10:33:29 PM [vite] ✨ optimized dependencies changed. reloading

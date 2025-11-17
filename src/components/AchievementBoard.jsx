@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import rough from 'roughjs/bundled/rough.esm.js'
 import { gsap } from 'gsap'
 import { Award, Crown, Flame, Sparkles, Trophy, Star, Zap, Target } from 'lucide-react'
-import { FaBolt, FaCrown, FaMedal } from 'react-icons/fa'
+import { FaBolt, FaCrown, FaMedal, FaLock } from 'react-icons/fa'
 
 /**
  * Types (doc-only):
@@ -117,7 +117,7 @@ const Badge = ({ a, unlocked }) => {
 }
 
 const StatPill = ({ icon: I, label, value, tone = 'sky' }) => (
-  <div className={`flex items-center gap-2 px-3 py-1.5 rounded-full bg-${tone}-500/10 ring-1 ring-${tone}-400/30 text-${tone}-200`}> 
+  <div className={`flex items-center gap-2 px-3 py-1.5 rounded-full bg-${tone}-500/10 ring-1 ring-${tone}-400/30 text-${tone}-200`}>
     <I className="w-4 h-4" />
     <span className="text-xs">{label}: <span className="font-semibold">{value}</span></span>
   </div>
